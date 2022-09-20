@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background-image: url(./images/833522.jpg);
+    background-repeat: no-repeat;
+    background-size: 100;
+  }
+
+  .topnav {
+    background-color: rgba(88, 84, 84, 0.219);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; 
+    text-align: center;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background: linear-gradient(to left,#ba5370, #f4e2d8);
+    color: white;
+  }
+
+  main {
+    margin: auto;
+  }
+  
+  html {
+    height: 100%;
+    display: grid;
+    padding: 34px;
+    text-align: right;
+    color: rgb(221, 206, 209);
+    font-size: 22px;
+  }
+  
+  img, #float {
+    float: left;
+  }
+  
+  .float {
+    margin-left: 20px;
+    margin-top: 80px;
+    text-align: left;
+    padding-left: 10px;
+    max-inline-size: 750px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    margin-top: 20px;
+  }
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+}
